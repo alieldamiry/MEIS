@@ -1,0 +1,176 @@
+@import "./global.scss";
+// ********************************
+* {
+    box-sizing: border-box;
+}
+.my-container {
+    margin: auto 5%;
+}
+
+@media (max-width: 800px) {
+    .title {
+        display: none !important;
+    }
+}
+
+.info p {
+    width: 230px;
+    border-left: 1px solid #fff;
+}
+
+.header img {
+    opacity: 0.4;
+}
+.header {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.header-inner {
+    width: 472px;
+    position: absolute;
+    top: 40%;
+    left: 300px;
+    transform: translate(-50%, -50%);
+}
+@media (max-width: 800px) {
+    .header-inner {
+        width: 100%;
+    }
+    .header-inner h1 {
+        font-size: 30px;
+        text-align: left;
+    }
+}
+
+// Features
+
+.feature-card {
+    height: 94%;
+}
+
+/**************************** Welcoming Section ****************************/
+
+#welcoming {
+    // max-width: 70%;
+    // margin-bottom: 500px;
+}
+.welcoming-message {
+    margin: 200px 0;
+}
+@media (max-width: 700px) {
+    #welcoming h1 {
+        font-size: 1.5rem;
+    }
+}
+
+.line-break {
+    margin: 1.2rem auto;
+    margin-bottom: 3rem;
+    border-style: none;
+    border-top-style: solid;
+    border-color: #9b0c23;
+    border-width: 4px;
+    width: 100px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.86);
+}
+
+/********************** Divisions *********************/
+.divisions {
+    position: relative;
+    top: 250px;
+    z-index: 1;
+}
+
+.division {
+    height: 100%;
+    // margin: auto 5%;
+    padding: 70px 40px;
+}
+
+.column-spacing {
+    padding: 40px;
+}
+
+.division h5 {
+    margin: 20px 0;
+}
+
+.division p {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 995px) {
+    .divisions {
+        position: unset;
+        z-index: unset;
+        height: unset;
+        top: unset;
+    }
+    .line-nodes {
+        display: none;
+    }
+}
+
+/**************************** enrollment Section ****************************/
+
+#enrollment {
+    // padding: 300px 100px 100px 100px;
+    height: auto;
+    // margin: 5rem 0;
+    // position: relative;
+    overflow: auto;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("../images/enrollment.jpg");
+    background-attachment: fixed;
+}
+
+.steps {
+    height: 400px;
+}
+
+.steps-container {
+    margin-top: 400px;
+}
+
+.node {
+    margin: 50px auto;
+    font-size: 2rem;
+    font-weight: bold;
+    border-radius: 40px;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.line-nodes {
+    position: relative;
+    top: 230px;
+    margin: 1.2rem auto;
+    border-style: none;
+    border-top-style: dashed;
+    border-color: #949494;
+    border-width: 2px;
+}
+
+.step p {
+    font-size: 0.7rem;
+}
+
+// **************************************Events***********************************
+.date-day {
+    font-size: 4rem;
+}
+.border-right {
+    border-right: 1px solid #000000 !important;
+}
+@media (max-width: 700px) {
+    #events h1 {
+        font-size: 1.5rem;
+    }
+}

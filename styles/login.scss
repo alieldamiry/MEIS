@@ -1,0 +1,28 @@
+@import "./global.scss";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.login-container {
+    height: 101vh;
+}
+
+.text-inputs input,
+.text-inputs :focus {
+    outline: none !important;
+    border: none;
+}
+
+// // ******************
+.input-icon{
+    position: absolute;
+    left: 20px;
+}
+.background-img{
+    height: 100%;
+    width: 100%;
+}
+.col{
+    padding:0 !important;
+}

@@ -1,0 +1,73 @@
+.bg-primary {
+  background-color: #002147 !important;
+}
+
+.bg-primary-lighter {
+  background-color: #15355A !important;
+}
+
+.bg-primary-bolder {
+  background-color: #00142a !important;
+}
+
+.bg-secondary {
+  background-color: #9b0c23 !important;
+}
+
+.primary-text {
+  color: #002147 !important;
+}
+
+.secondary-text {
+  color: #9b0c23 !important;
+}
+
+.grey-text {
+  color: #8888;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button.bg-primary:hover,
+button.bg-primary:active {
+  background-color: #00142a !important;
+}
+
+button.bg-secondary:hover,
+button.bg-secondary:active {
+  background-color: #7e091c !important;
+}
+
+@font-face {
+  font-family: pt-serif;
+  src: url("../fonts/PT_Serif-Web-Regular.ttf");
+}
+
+@font-face {
+  font-family: pt-serif-bold;
+  src: url("../fonts/PT_Serif-Web-Bold.ttf");
+}
+
+.font-pt-serif {
+  font-family: pt-serif;
+}
+
+.font-pt-serif-bold {
+  font-family: pt-serif-bold;
+}
+
+.sm-text {
+  font-size: 0.8rem;
+}
+
+.faded {
+  opacity: 0.6;
+}
+
+.nav-link a:hover {
+  color: #9b0c23 !important;
+  text-decoration: none;
+}
+/*# sourceMappingURL=global.css.map */
