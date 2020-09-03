@@ -1,3 +1,16 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: unset;
+    text-decoration: none;
+}
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
 // Colors
 .bg-primary {
     background-color: #002147 !important;
@@ -25,12 +38,12 @@ a:hover{
     text-decoration: none;
 }
 // Buttons
-button.bg-primary:hover,
-button.bg-primary:active {
+.btn.bg-primary:hover,
+.btn.bg-primary:active {
     background-color: #00142a !important;
 }
-button.bg-secondary:hover,
-button.bg-secondary:active {
+.btn.bg-secondary:hover,
+.btn.bg-secondary:focus {
     background-color: #7e091c !important;
 }
 

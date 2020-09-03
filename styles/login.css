@@ -1,3 +1,20 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  color: unset;
+  text-decoration: none;
+}
+
 .bg-primary {
   background-color: #002147 !important;
 }
@@ -30,13 +47,13 @@ a:hover {
   text-decoration: none;
 }
 
-button.bg-primary:hover,
-button.bg-primary:active {
+.btn.bg-primary:hover,
+.btn.bg-primary:active {
   background-color: #00142a !important;
 }
 
-button.bg-secondary:hover,
-button.bg-secondary:active {
+.btn.bg-secondary:hover,
+.btn.bg-secondary:focus {
   background-color: #7e091c !important;
 }
 
@@ -100,5 +117,45 @@ button.bg-secondary:active {
 
 .col {
   padding: 0 !important;
+}
+
+.checkboxContainer input {
+  display: none;
+}
+
+.checkboxContainer {
+  display: inline-block;
+  padding-left: 30px;
+  position: relative;
+  cursor: pointer;
+  font-family: sans-serif;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.checkboxContainer .checkmark {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 2px solid #8888;
+  position: absolute;
+  top: 2.5px;
+  left: 5px;
+  border-radius: 4px;
+}
+
+.checkboxContainer input:checked + .checkmark:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  width: 8px;
+  border-left: 2px solid #8888;
+  border-bottom: 2px solid #8888;
+  top: 45%;
+  left: 53%;
+  -webkit-transform: translate(-50%, -50%) rotate(-45deg);
+          transform: translate(-50%, -50%) rotate(-45deg);
 }
 /*# sourceMappingURL=login.css.map */

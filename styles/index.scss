@@ -1,8 +1,6 @@
 @import "./global.scss";
 // ********************************
-* {
-    box-sizing: border-box;
-}
+
 .my-container {
     margin: auto 5%;
 }
@@ -51,10 +49,10 @@
 
 /**************************** Welcoming Section ****************************/
 
-#welcoming {
-    // max-width: 70%;
-    // margin-bottom: 500px;
-}
+// #welcoming {
+//     // max-width: 70%;
+//     // margin-bottom: 500px;
+// }
 .welcoming-message {
     margin: 200px 0;
 }
@@ -170,7 +168,12 @@
     border-right: 1px solid #000000 !important;
 }
 @media (max-width: 700px) {
-    #events h1 {
+    #events h1,
+    #events h2 {
         font-size: 1.5rem;
     }
+}
+
+.map {
+    height: 35%;
 }

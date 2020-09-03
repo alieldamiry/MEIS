@@ -14,15 +14,51 @@
     border: none;
 }
 
-// // ******************
-.input-icon{
+.input-icon {
     position: absolute;
     left: 20px;
 }
-.background-img{
+.background-img {
     height: 100%;
     width: 100%;
 }
-.col{
-    padding:0 !important;
+.col {
+    padding: 0 !important;
+}
+
+// Checkbox Style
+
+.checkboxContainer input {
+    display: none;
+}
+.checkboxContainer {
+    display: inline-block;
+    padding-left: 30px;
+    position: relative;
+    cursor: pointer;
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.checkboxContainer .checkmark {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #8888;
+    position: absolute;
+    top: 2.5px;
+    left: 5px;
+    border-radius: 4px;
+}
+
+.checkboxContainer input:checked + .checkmark:after {
+    content: "";
+    position: absolute;
+    height: 5px;
+    width: 8px;
+    border-left: 2px solid #8888;
+    border-bottom: 2px solid #8888;
+    top: 45%;
+    left: 53%;
+    transform: translate(-50%, -50%) rotate(-45deg);
 }
