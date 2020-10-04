@@ -11,6 +11,15 @@ a:hover {
     color: unset;
     text-decoration: none;
 }
+li{
+    list-style-position: inside;
+}
+
+// spacing
+.my-container {
+    margin: auto 5%;
+}
+
 // Colors
 .bg-primary {
     background-color: #002147 !important;
@@ -74,4 +83,15 @@ a:hover{
 .nav-link a:hover {
     color: #9b0c23 !important;
     text-decoration: none;
+}
+
+@media (max-width: 800px) {
+    .title {
+        display: none !important;
+    }
+}
+
+.info p {
+    width: 230px;
+    border-left: 1px solid #fff;
 }
